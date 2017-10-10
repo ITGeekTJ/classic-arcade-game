@@ -10,4 +10,6 @@
 
 **Have Fun!**
 
-(images/game_shot.PNG)
+![alt text][logo]
+
+[logo]: https://github.com/ITGeekTJ/classic-arcade-game/blob/master/images/game_shot.PNG "Classic Arcade Game"
