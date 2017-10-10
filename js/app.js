@@ -50,11 +50,11 @@ var Player = function(x, y, speed) {
 };
 
 Player.prototype.update = function() {
-    // Stops player from moving past wall boundries
-    if (this.y > 380) {
-        this.y = 380;
+    // Stops player from moving past top and bottom wall boundries
+    if (this.y > 400) {
+        this.y = 400;
     }
-
+    // Stops player from moving past left and right boundaries
     if (this.x > 400) {
         this.x = 400;
     }
@@ -66,14 +66,14 @@ Player.prototype.update = function() {
     // Checks if player reached the top and won the game
     if (this.y < 0) {
         this.x = 200;
-        this.y = 380;
+        this.y = 400;
         }
 };
 
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
-
+// Uses player input to move player correct distance on grid
 Player.prototype.handleInput = function(keyPress) {
     switch (keyPress) {
         case 'left':
@@ -98,7 +98,7 @@ var allEnemies = [];
 
 // Postion enemy start positions
 var enemyPosition = [60, 140, 220];
-var player = new Player(200, 380, 50);
+var player = new Player(200, 400, 50);
 var enemy;
 
 enemyPosition.forEach(function(posY) {
