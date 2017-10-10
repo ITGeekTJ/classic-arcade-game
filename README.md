@@ -12,4 +12,4 @@
 
 ![alt text][logo]
 
-[logo]: https://github.com/ITGeekTJ/classic-arcade-game/blob/master/index.html "Classic Arcade Game"
+[logo]: https://github.com/ITGeekTJ/classic-arcade-game/blob/master/images/game_shot.png "Classic Arcade Game"
