@@ -10,4 +10,4 @@
 
 **Have Fun!**
 
-(images/game_shot.png)
+(images/game_shot.PNG)
