@@ -1,5 +1,10 @@
 ## Welcome to my Classic Arcade Game - Frogger
 
+### How to Run the Application
+
+- Make sure you have downloaded all of the files for the application.
+- Then open index.html in your favorite browser.
+
 ### Basic Rules:
 
 - Move your player across the grid to the water.
